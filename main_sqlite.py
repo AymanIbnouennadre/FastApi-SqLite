@@ -78,4 +78,4 @@ async def delete_student(student_id: int):
       return {"message": "Student deleted"}
   except sqlite3.Error as e:
       print(e)
-      return {"error": "Failed to delete student"}
+      return {"error": "Failed to delete student student "}
